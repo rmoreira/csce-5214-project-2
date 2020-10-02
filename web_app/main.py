@@ -12,7 +12,6 @@ app = Flask(__name__)
  
 @app.route("/", methods=['POST', 'GET'])
 def index():
-    # on load set form with defaults
     return render_template('index.html')
 
 @app.route('/predict', methods = ['POST', 'GET'])
