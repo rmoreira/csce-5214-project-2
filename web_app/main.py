@@ -21,6 +21,7 @@ def predict():
     # create an empty list that stores user's inputs
     user_inputs = [[]]
 
+    # get user's input for each feature in the features list
     for feature in features:
         if request.method == 'POST':    # form submission
             user_inputs[0].append(float(request.form[feature]))
