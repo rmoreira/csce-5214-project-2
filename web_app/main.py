@@ -1,6 +1,5 @@
 #!/usr/bin/env python
 from flask import Flask, render_template, flash, request, redirect, url_for, jsonify, Markup
-from sklearn.linear_model import LinearRegression
 import pickle
 
 # load linear regression model
