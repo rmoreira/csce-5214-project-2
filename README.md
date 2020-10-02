@@ -4,6 +4,7 @@ This mini project builds a web application for house price prediction. A multipl
 
 __Technologies:__
 - Python 3.6
+- numpy
 - pandas
 - sklearn
 - Flask 0.12
@@ -11,7 +12,7 @@ __Technologies:__
 
 __Installation Guide:__
 - Create a virtual environment for this project
-- Clone this repository and install the following Python's package: pandas, sklearn, matplotlib, and seaborn
+- Clone this repository and install the following Python's package: numpy, pandas, sklearn, matplotlib, and seaborn
 - Open Command prompt for the current environment and go to 'web_app' directory. Then, type the following commands:
   - pip install -r requirements.txt
   - python main.py
