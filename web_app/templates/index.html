@@ -4,34 +4,14 @@
 	<META name="viewport" content="width=device-width, initial-scale=1">
 	<META charset="UTF=8">
 	<TITLE>Predicting Bicycle Rental Demand</TITLE>
-	<LINK rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-	<SCRIPT src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></SCRIPT>
-	<SCRIPT src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></SCRIPT>
-	<SCRIPT src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></SCRIPT>
-	<STYLE>
-		.btn-circle.btn-xl {
-		    width: 70px;
-		    height: 70px;
-		    padding: 10px 2px;
-		    border-radius: 35px;
-		    font-size: 17px;
-		    line-height: 1.33;
-		}
-	</STYLE> 
 </HEAD>
 <BODY>
-<DIV class="container">
-	<p>
-		Model Intercept: {{model_intercept}}<br />
-		Model's Features: {{features}}<br />
-		Regression Coefficients: {{model_coef}}
-	</p>
-</DIV>
-</BODY>
+    <DIV class="container">
 
-<SCRIPT>
-	var INTERCEPT = {{model_intercept}}
-	var COEF = {{model_coef}}
-    var FEATURES {{features}}
-</SCRIPT>
+        ['sqft_living', 'grade', 'bathrooms', 'view', 'sqft_basement', 'bedrooms', 'floors', 'condition', 'yr_built'] = [2000, 5, 2.5, 2, 720, 4, 1, 4, 2015]
+        <p>
+            <a href="predict?sqft_living=2000&grade=5&bathrooms=2.5&view=2&sqft_basement=720&bedrooms=4&floors=1&condition=4&yr_built=2015">Predict House Price</a>
+        </p>
+    </DIV>
+</BODY>
 </HTML>
