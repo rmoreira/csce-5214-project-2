@@ -7,7 +7,7 @@ __Technologies:__
 - numpy
 - pandas
 - sklearn
-- Flask 0.12
+- Flask 0.12 or later
 - HTML & JavaScript
 
 __Installation Guide:__
