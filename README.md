@@ -1,6 +1,6 @@
 # CSCE 5214 Project 2 - Building Web Application for House Price Prediction
 
-This mini project builds a web application for house price prediction. A multiple linear regression model is used to estimate house price based on the inputs provided by the user.
+This mini project builds a web application for house price prediction.
 
 __Technologies:__
 - Python 3.6
