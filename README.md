@@ -1,4 +1,5 @@
-# CSCE 5214 Project 2 - House Price Prediction Based on Location and Weather
+# CSCE 5214 Project 2
+# House Price Prediction Based on Location and Weather
 
 This mini project builds a web application for house price prediction. The user would provide a range of desired house price, a range of desired temperature, and the month and year that he/she plans to buy a new house. The application then provides of list of state/city that have the house price and temperature meeting the user's need.
 
