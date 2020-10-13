@@ -19,4 +19,17 @@ __Installation Guide:__
 - Open Command prompt for the current environment and go to 'web_app' directory. Then, type the following commands:
   - pip install -r requirements.txt
   - python main.py
-- Copy the url address shown on the terminal window. Then open a browser and paste the url.
+  - go to : http://0.0.0.0:5000/
+  
+ __Build and Deploy Web App:__
+ ```
+cd web_app
+docker build -t housepricesapp .
+docker push housepricesapp
+docker run --rm -p 5000:5000 -it housepricesapp:latest
+``` 
+
+__If you want to skip the build process and just run the prebuilt Web App:__
+```
+docker run --rm -p 5000:5000 -it rmoreira/csce5214project2:latest
+```

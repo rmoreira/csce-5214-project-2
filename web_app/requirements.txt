@@ -1,2 +1,5 @@
 Flask>=0.12
 sklearn
+pandas
+numpy
+#gmaps

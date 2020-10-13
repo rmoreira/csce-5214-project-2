@@ -1,17 +1,24 @@
+{% extends "base.html" %}
+{% block title %}Project 2{% endblock %}
+{% block content %}
+<br>
+{% endblock %}
 <!DOCTYPE html>
-<HTML>
-<HEAD>
-	<META name="viewport" content="width=device-width, initial-scale=1">
-	<META charset="UTF=8">
-	<TITLE>Predicting House Price</TITLE>
-</HEAD>
-<BODY>
-    <DIV class="container">
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Index Search Page</title>
+  </head>
+  <body>
+    <form method="post">
+      <p>Minimum Temperature: <input type= "number" name="min_temp" required></p>
+      <p>Maximum Temperature: <input type= "number" name="max_temp" required></p>
+      <p>Minimum House Price: <input type= "number" name="min_price" required></p>
+      <p>Maximum House Price: <input type= "number" name="max_price" required></p>
+      <p>Year you want to buy a house: <input type= "number" name="year" required></p>
+      <p>Month you want to buy a house: <input type= "number" name="month" required></p><br>
+      <input type="submit">
+    </form>
 
-        ['min_price', 'max_price', 'min_temp', 'max_temp', 'month', 'year'] = [150000, 200000, 60, 80, 5, 2021]
-        <p>
-            <a href="predict?min_price=150000&max_price=200000&min_temp=60&max_temp=75&month=5&year=2021">Show States</a>
-        </p>
-    </DIV>
-</BODY>
-</HTML>
+  </body>
+</html>

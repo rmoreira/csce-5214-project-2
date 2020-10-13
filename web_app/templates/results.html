@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block title %}Index Search Page{% endblock %}
+{% block content %}
+<h1>Results</h1><br>
+<p>Minimum Temperature: {{ min_temp }}</p>
+<p>Maximum Temperature: {{ max_temp }}</p>
+<p>Minimum House Price: {{ min_price }}</p>
+<p>Maximum House Price: {{ max_price }}</p>
+<p>Year you want to buy a house: {{ year }}</p>
+<p>Month you want to buy a house: {{ month }}</p><br>
+{{ outputs | safe }}
+{% endblock %}
