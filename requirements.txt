@@ -1,0 +1,4 @@
+pandas
+numpy
+gmaps
+flask
