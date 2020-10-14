@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+{% block title %}Index Search Page{% endblock %}
+{% block content %}
+<img src="https://clipartstation.com/wp-content/uploads/2017/11/house-clipart-png-1.png" style="
+    /* min-height: 20%; */
+    /* min-width: 20%; */
+    height: 360px;
+    width: 620px;
+    position:absolute;
+    top: 80px;
+    /* bottom: -10%; */
+    /* left: -100%; */
+    right: 40px;
+    margin:auto;
+    /* z-index: -1; */
+    ">
+<form method="post" style="
+padding: 40px;
+background: whitesmoke;
+height: 520px;
+">
+    <p>Minimum Temperature: <input type="number" name="min_temp" required="" style="
+        margin-left: 80px;
+    "></p>
+      <p>Maximum Temperature: <input type="number" name="max_temp" required="" style="
+        margin-left: 76px;
+    "></p>
+      <p>Minimum House Price: <input type="number" name="min_price" required="" style="
+        margin-left: 84px;
+    "></p>
+      <p>Maximum House Price: <input type="number" name="max_price" required="" style="
+        margin-left: 80px;
+    "></p>
+      <p>Year you want to buy a house: <input type="number" name="year" required="" style="
+        margin-left: 30px;
+    "></p>
+      <p>Month you want to buy a house: <input type="number" name="month" required="" style="
+        margin-left: 16px;
+    "></p>
+      <input type="submit" style="
+        margin-left: 150px;
+        margin-top: 20px;
+        background-color: #3c7193;
+        color: white;
+        border-style: outset;
+    ">
+</form>
+{% endblock %}
