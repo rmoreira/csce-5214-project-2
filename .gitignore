@@ -128,4 +128,10 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-*house_price_w_temp.*
+# Extra
+.DS_Store
+.idea/*
+data/house_price_w_temp.csv
+data/house_price_w_temp.pkl
+web_app/model.sav
+web_app/residuals.csv
