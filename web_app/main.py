@@ -9,12 +9,12 @@ import numpy as np
 rf_model = pickle.load(open('model.sav', 'rb'))           # load model
 features = pickle.load(open('features.sav', 'rb'))        # load a list of feature name
 df_states = pickle.load(open('df_states.sav', 'rb'))      # load temperature dataframe for state's lookup
- 
+
 app = Flask(__name__)
- 
+
 @app.route("/", methods=['POST', 'GET'])
 def index():
-    return render_template('index.html')
+    return render_template('search.html')
 
 @app.route("/search", methods=['GET'])
 def search():
